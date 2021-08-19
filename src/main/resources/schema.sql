@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS client;
+
+CREATE TABLE client (
+	id BIGINT AUTO_INCREMENT  PRIMARY KEY,
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
+  	age INT,
+  	birth_date DATE NOT NULL,
+  	sex VARCHAR(1) NOT NULL
+);

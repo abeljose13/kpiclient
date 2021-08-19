@@ -1,0 +1,16 @@
+INSERT INTO client(first_name, last_name, age, birth_date, sex) VALUES
+	('Anne', 'Smith', 18, '2003-02-03', 'F'),
+	('Marie', 'Curie', 25, '1996-03-01', 'F'),
+	('Robert', 'Downey', 45, '1976-07-04', 'M'),
+	('Angela', 'Lansbury', 60, '1961-08-05', 'F'),
+	('Chris', 'Parrot', 38, '1983-07-01', 'M'),
+	('Scarlet', 'Johansson', 40, '1981-02-22', 'F'),
+	('Sandra', 'Bullock', 45, '1976-05-26', 'F'),
+	('Sara', 'Parker', 22, '1999-03-06', 'F'),
+	('Harry', 'Potter', 35, '1986-04-01', 'M'),
+	('Peter', 'Parker', 26, '1995-08-02', 'M'),
+	('Luisa', 'Lane', 28, '1993-03-11', 'F'),
+	('Jhon', 'Malkovich', 42, '1979-06-12', 'M'),
+	('Michelle', 'Pfeiffer', 35, '1986-07-10', 'F'),
+	('Julia', 'Robert', 31, '1990-03-17', 'F'),
+	('Derek', 'Jeter', 20, '2001-05-04', 'M');
