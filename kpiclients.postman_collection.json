@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "3f752065-9cd9-4e58-a1d8-a83b5cf35786",
+		"name": "kpiclients",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Actuator",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/kpiclient/actuator",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"kpiclient",
+						"actuator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Jessica\",\r\n    \"lastName\": \"Lange\",\r\n    \"age\": 54,\r\n    \"birthDate\": \"1967-04-01\",\r\n    \"sex\": \"F\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/kpiclient/api/client",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"kpiclient",
+						"api",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KPIs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/kpiclient/api/client/kpi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"kpiclient",
+						"api",
+						"client",
+						"kpi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All clients",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/kpiclient/api/client",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"kpiclient",
+						"api",
+						"client"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
